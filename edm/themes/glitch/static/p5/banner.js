@@ -7,7 +7,7 @@ let nw = 1;
 var r = {};
 
 function setup() {
-  var can = createCanvas(0.75*displayWidth, 800);
+  var can = createCanvas(0.6*windowWidth, 600);
 	can.parent('banner');
   can.class('bannerCanvas');
 
@@ -88,6 +88,6 @@ class myRect {
 }
 
 function windowResized() {
-  resizeCanvas(0.75*displayWidth, 300);
+  resizeCanvas(0.6*windowWidth, 600);
 }
 

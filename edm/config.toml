@@ -13,8 +13,8 @@ theme = "glitch"
     url = "/posts/"
     weight = 2
   [[menu.main]]
-    name = "projects"
-    url = "/projects/"
+    name = "code"
+    url = "/code/"
     weight = 3
   [[menu.main]] 
     name = "art"
