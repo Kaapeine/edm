@@ -1,0 +1,38 @@
+<div id="nav-border" class="container">
+    <div class="row" id="top_row">
+        <div class="col">
+            <div class="row">
+                <div class="col" id="logo">
+                    <img src="/images/logo.png" id="logoimg">
+                </div>
+                <div class="col">
+                    <header>
+                        <h1><a class="headerlink" href="/index.html">entirely different matters</a></h1>
+                    </header>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            
+        </div>
+        <div class="col" style="text-align: center;">
+            <div class="row justify-content-center" id="nav">
+                <div class="col">
+                    <!-- <li id="navlist"> <a id="navlink" href="./posts/index.html">posts</a></li>
+                    <li id="navlist"> <a id="navlink" href="./content/portfolio.html">projects</a></li>
+                    <li id="navlist"> <a id="navlink" href="./content/robotics.html">robotics</a></li> -->
+                    {{ range .Site.Menus.main }}
+                    <a class="nav-link" href="{{ .URL }}">
+                    {{ if .Pre }}
+                    {{ $icon := printf "<i data-feather=\"%s\"></i> " .Pre | safeHTML }}
+                    {{ $icon }}
+                    {{ end }}
+                    {{ $text := print .Name | safeHTML }}
+                    {{ $text }}
+                    </a>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+      </div>
+</div>

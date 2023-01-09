@@ -1,0 +1,22 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "entirely different matters"
+theme = "glitch"
+[menu]
+  [[menu.main]]
+    name = "home"
+    pre = "home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "posts"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
+    name = "projects"
+    url = "/projects/"
+    weight = 3
+  [[menu.main]] 
+    name = "art"
+    url = "/art/"
+    weight = 4

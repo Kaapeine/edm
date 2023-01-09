@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'ft88italic';
+    src: url('../fonts/FT88-Italic.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'JetBrains Mono';
+	src: url('../fonts/JetBrainsMono-Regular.ttf');
+}
+
+header {
+    text-align: left;
+	text-decoration: none;
+	color: #2bbc8a;
+}
+
+#logo {
+	display: block;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 2ex;
+	padding-bottom: 2ex;
+}
+
+#logoimg {
+	width: 100%;
+}
+
+#top_row {
+	margin: 5ex;
+}
+
+h1, h2 {
+    font-family: 'ft88italic';
+	
+}
+
+body {
+	background-color: #000;
+	color: #fff;
+	height: 100vh;
+	width: 100vw;
+	font-family: 'JetBrains Mono';
+	font-size: 16px;
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	overflow: auto;
+}
+
+#nav {
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 100%;
+	font-family: 'ft88italic';
+}
+
+#navlist {
+	list-style-type: none;
+	font-size: 20px;
+	padding-top: auto;
+}
+
+#navlink:hover {
+	color: #2bbc8a;
+}
+
+a {
+	text-decoration: none;
+	color: #2bbc8a;
+}
+
+a:hover {
+	color: inherit;
+}
+
+#intro_div {
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 20px;
+	width: auto;
+	font-family: 'ft88italic';
+	font-size: 30px;
+}
+
+#splash_img {
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 20px;
+}
+
+#banner {
+	left: 0;
+}
+
+hr {
+	margin-left: 20%;
+	margin-right: 20%;
+	color: white;
+	background-color: #fff;
+	height: 5;
+	opacity: 1;
+}
+
+#about_div {
+	margin-left: 20%;
+	margin-right: 20%;
+	width: auto;
+	font-family: 'JetBrains Mono';
+}
+
+col {
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 20px;
+	width: auto;
+}
+
+#default_text {
+	font-family: 'JetBrains Mono';
+}
+
+#thumbnails {
+	margin-top: 50px;
+	margin-left: 20%;
+	margin-right: 20%;
+	height: 200px;
+}
+
+#thumbnail {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 50%;
+}
+
+#thumbnail:hover {
+	width: 55%;
+}
+
+#content {
+	margin-left: 20%;
+	margin-right: 20%;
+	width: auto;
+}
+
+body::after {
+	content: '';
+	display: block;
+	height: 50px; /* Set same as footer's height */
+}
+  
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+}
+
